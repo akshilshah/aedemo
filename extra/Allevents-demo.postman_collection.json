@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "6dc03844-4372-4c13-818c-654a3406cc46",
+		"name": "Allevents-demo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getaddress",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "address",
+							"value": "112 KENNEBECK AVE. N., Kent, Washington 98030",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/ae/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"ae",
+						""
+					]
+				},
+				"description": "REST API to resolve/detect city, state, country from a raw address."
+			},
+			"response": []
+		}
+	]
+}
