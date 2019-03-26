@@ -13,7 +13,7 @@
 
 -  **URL**
 
-  ae/
+   ae/
 
 - **Method**
 
@@ -56,9 +56,3 @@
         "message": "Address not found"
     }
     ```
-
-    
-
-**Success Response**
-
-- ​	
